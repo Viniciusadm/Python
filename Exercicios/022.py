@@ -1,0 +1,12 @@
+from time import sleep
+nome = str(input('Digite o seu nome completo: ')).strip()
+print('Analisando seu nome...')
+sleep(1)
+print(f'Seu nome em maiúsculas é {nome.upper()}')
+sleep(0.5)
+print(f'Seu nome em minúsculas é {nome.lower()}')
+sleep(0.5)
+print('Seu nome tem ao todo {} letras' .format(len(nome.replace(' ', ''))))
+sleep(0.5)
+primeiroNome = nome.split()
+print(f'Seu primeiro nome é {primeiroNome[0]} e ele tem {len(primeiroNome[0])} letras')

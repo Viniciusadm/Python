@@ -1,0 +1,1 @@
+lista = ['Arroz', 'Feijão', 'Batata']
