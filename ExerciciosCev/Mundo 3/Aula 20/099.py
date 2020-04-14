@@ -1,7 +1,7 @@
 lista = list()
 maiorNumero = 0
 
-def  maior(numeros):
+def maior(numeros):
     gatilho = 0
     for c in numeros:
         if gatilho == 0:
