@@ -11,6 +11,6 @@ if pessoa['CTPS'] != 0:
     pessoa['Salário'] = float(input('Salário: '))
     pessoa['Aposentadoria'] = (pessoa['Contratação'] - (anoAtual - pessoa['Idade'])) + 35
 
-print(20 * '=')
+print(40 * '=')
 for c, d in pessoa.items():
     print(f'{c} tem o valor {d}')

@@ -1,5 +1,5 @@
 jogador = dict()
-gols = []
+gols = list()
 
 jogador['Nome'] = str(input('Jogador: '))
 partidas = int(input('Partidas Jogadas: '))
@@ -15,6 +15,6 @@ for c, d in jogador.items():
 
 print(40 * '=')
 
-print('O jogador', jogador['Nome'], f'jogou {partidas} partidas.')
+print(f'O jogador {jogador["Nome"]} jogou {partidas} partidas.')
 for c, d in enumerate(gols):
     print(f'Na partida {c + 1}, fez {d} gols')
