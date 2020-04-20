@@ -3,6 +3,9 @@ numerosLista = list()
 pares = list()
 
 def sorteia():
+    """
+    Pão com feijão
+    """
     for c in range(1, 6):
         numerosLista.append(randint(1, 20))
     print(f'Os números sorteados foram ', end='')
