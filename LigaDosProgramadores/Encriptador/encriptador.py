@@ -1,8 +1,9 @@
-from random import randint
+from random import randint, choice
 
 class Desencriptar:
 	def __init__(self):
 		self.alfabeto = [x for x in 'k8ocdn0m16jxbre7t39pwhsvqzau4fyigl53']
+		self.espacos = ['±', '¼', '®', 'Ø', 'æ']
 		self.letras = []
 		self.letrasEmbaralhadas = []
 		self.letrasJuntas = []
@@ -37,7 +38,7 @@ class Desencriptar:
 				else:
 					self.letrasEmbaralhadas.append(self.letra)
 			else:
-				self.letrasEmbaralhadas.append('±')
+				self.letrasEmbaralhadas.append(choice(self.espacos))
 
 	def inserirIndice(self):
 		if self.cifra > 36:

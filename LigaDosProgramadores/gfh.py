@@ -1,7 +1,15 @@
-from random import shuffle
+'''from random import shuffle
 
-alfabeto = [x for x in '0123456789abcdefghijklmnopqrstuvwxyz']
-embaralhado = ['k', '8', 'o', 'c', 'd', 'n', '0', 'm', '1', '6', 'j', 'x', 'b', 'r', 'e', '7', 't', '2', '9', 'p', 'w', 'h', 's', 'v', 'q', 'z', 'a', 'u', '4', 'f', 'y', 'i', 'g', 'l', '5', '3']
+alfabeto = [x for x in '!@#$%*(){}[]?/\ºª´`-_=§|¬0123456789abcdefghijklmnopqrstuvwxyz']
+embaralhado = ['u', '\\', '2', '8', '4', 'q', '0', '#', 'w', 'a', 's', '_', '3', '`', '¬', 'i', 'h', '9', 'p', '7', '[', 'f', '{', ']', '}', '§', 'c', '(', 'k', '@', 'b', 'm', '*', '%', 'd', '?', '-', '|', '$', '1', '/', 'x', 'l', '5', 'v', 'z', 'o', 'g', '!', 'º', 'j', 'r', 'e', 'y', ')', '´', '=', 'n', '6', 'ª', 't']
 shuffle(alfabeto)
 
 print(''.join(embaralhado))
+print(alfabeto)'''
+
+frase = str(input('Frase: ')).split()
+frase.insert(0, frase[-1])
+frase.pop(-1)
+frase = ' '.join(frase)
+frase = frase[::-1]
+print(frase)
