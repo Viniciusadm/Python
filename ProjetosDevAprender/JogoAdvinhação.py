@@ -8,6 +8,7 @@ class AdvinharNumero:
         self.contador = 0
         self.numeros = []
     
+
     def gerarNumero(self):
         self.numeroSorteado = randint(self.valorInicial, self.valorFinal)
 
