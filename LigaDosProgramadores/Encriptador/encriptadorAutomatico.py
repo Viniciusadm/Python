@@ -43,7 +43,7 @@ class Encriptar:
 
 	def inserirIndice(self):
 		self.posicaoAleatoria = randint(0, len(self.letrasEmbaralhadas) - 1)
-		self.letrasEmbaralhadas.insert(self.posicaoAleatoria, f'{choice(self.simbolosAntesDaCifra)}{self.cifra}')
+		self.letrasEmbaralhadas.insert(self.posicaoAleatoria, f'{choice(self.simbolosAntesDaCifra)}{60 - self.cifra}')
 		self.letrasEmbaralhadas.insert(self.posicaoAleatoria + 2, choice(self.simbolosDepoisDaCifra))
 		
 	def juntarLista(self):

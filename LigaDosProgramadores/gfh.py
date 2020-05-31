@@ -7,9 +7,11 @@ shuffle(alfabeto)
 print(''.join(embaralhado))
 print(alfabeto)'''
 
-frase = str(input('Frase: ')).split()
+'''frase = str(input('Frase: ')).split()
 frase.insert(0, frase[-1])
 frase.pop(-1)
 frase = ' '.join(frase)
 frase = frase[::-1]
-print(frase)
+print(frase)'''
+
+print('abc'.find('d'))
