@@ -1,4 +1,4 @@
-class Decriptar:
+class Descriptografar:
 	def __init__(self):
 		self.alfabeto = [x for x in 'u¬{§5t)rd#/[m]!-ª94p0cbkso2i_lz8n,qa|}wºj@;*v%=h?:3e1`7y´xf6$g(.']
 		self.espacos = ['±', '¼', '®', ' ♪', 'æ']
@@ -119,5 +119,5 @@ class Decriptar:
 		self.voltarPosicao()
 		self.mostrarFrase()
 
-iniciar = Decriptar()
+iniciar = Descriptografar()
 iniciar.main()
