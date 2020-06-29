@@ -1,0 +1,4 @@
+for c in [['Caligula\n', 'Animegataris\n'], ['18if\n', 'Black Clover\n', 'Ballroom e Youkoso\n', 'Boku no Kanojo ga Majimesugiru Sho-bitch na Ken\n'], ['Another\n', 'Action Heroine Cheer Fruits\n', 'Back Street Girls: Gokudolls\n', 'Angel Beats!\n', 'Chio-chan no Tsuugakuro\n', 'Asobi Asobase\n', 'Boogiepop wa Warawanai\n', '5-toubun no Hanayome\n'], ['Bikini Warriors\n', 'Araburu Kisetsu no Otome-domo yo.\n', 'Ansatsu Kyoushitsu\n', 'Darling in the FranXX\n', 'Code Geass: Hangyaku no Lelouch\n', 'Boku no Hero Academia\n', 'Danganronpa\n', 'Comic Girls\n', 'Chuubyou Gekihatsu Boy\n', 'Beastars\n', 'Aho Girl\n', '3D Kanojo: Real Girl\n', 'Carole & Tuesday\n', 'Chuunibyou demo Koi ga Shitai!\n', 'Charlotte\n', 'Blend S\n']]:
+    for i in c:
+        print(i, end='')
+    print(40 * '=')
